@@ -1,0 +1,28 @@
+
+.display{display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction:column;
+      float:left; flex-wrap: wrap;
+  width:40%;
+}
+#hairDiv{display: none;}
+#eyesDiv{display: none;}
+#browsDiv{display: none;}
+#avatar{
+    margin:10% 0 0 10%; 
+}
+#face{width:350px;}
+ #hair{width:400px;translate: -30px -2800px;} 
+#eyebrows{width:400px;translate: -20px -1120px;}
+ #eyes{width:400px;translate:  -15px -420px;}
+ #nose{width:400px;translate:-8px -2030px;} 
+#lips{width:400px;translate:-20px -1560px;}  
+.customization{float:left;width:800px;}
+.customization ul {display: flex;align-items: center;}
+.customization ul li{list-style: none;margin-right:60px;}
+img{width:80px;}
+#customContents{
+    display: flex;
+clear:both;
+}

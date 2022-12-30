@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Make your own avator!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="display">
+        <div id="avatar">
+            <img id="face" src="avatarBase.svg" />
+            <img id="eyes" src="eyes.svg" />
+            <img id="eyebrows" src="eyebrows.svg" />
+            <img id="lips" src="lips.svg" />
+            <img id="nose" src="nose.svg" />
+            <img id="hair" src="./img/hairIcon.svg" />
+        </div>
+    </div>
+
+    <div class="customization">
+        <ul id="customSelect">
+            <li id="selectHair">
+                <div><img src="img/hairIcon.svg" alt="hair" /></div>
+            </li>
+            <li id="selectEyes">
+                <div><img src="img/eyes.svg" alt="eye" /></div>
+            </li>
+            <li id="selectBrows">
+                <div><img src="img/eyebrows.svg" alt="eyebrows"></div>
+            </li>
+            <li class="selection">
+                <div><img src="img/nose.svg" alt="nose"></div>
+            </li>
+            <li class="selection">
+                <div><img src="img/mouth.svg" alt="lips"></div>
+            </li>
+            <li class="selection">
+                <div><img src="img/download.svg" alt="Loading" /></div>
+            </li>
+
+        </ul>
+        <div id="customContents">
+            <div id="hairDiv">
+                <button class="selectedHair"><img src="./img/hairOpt1.svg" /></button>
+                <button class="selectedHair"><img src="./img/hairOpt2.svg" /></button>
+                <button class="selectedHair"><img src="./img/hairOpt3.svg" /></button>
+                <button class="selectedHair"><img src="./img/hairOpt4.svg" /></button>
+            </div>
+            <div id="eyesDiv">
+                <button class="selectedEyes"><img src="./img/eye1.svg" /></button>
+                <button class="selectedEyes"><img src="./img/eye2.svg" /></button>
+                <button class="selectedEyes"><img src="./img/eye3.svg" /></button>
+                <button class="selectedEyes"><img src="./img/eye4.svg" /></button>
+            </div>
+            <div id="browsDiv">
+                <button class="selectedEyeBrows"><img src="./img/brows1.svg" /></button>
+                <button class="selectedEyeBrows"><img src="./img/brows2.svg" /></button>
+                <button class="selectedEyeBrows"><img src="./img/brows3.svg" /></button>
+                <button class="selectedEyeBrows"><img src="./img/brows4.svg" /></button>
+            </div>
+        </div>
+        <script src="scripts/drawAvatar.js" defer></script>
+
+</body>
+
+</html>

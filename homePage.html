@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Make your own avator!</title>
+    <title>Make your own avatar!</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -13,8 +13,8 @@
             <img id="face" src="avatarBase.svg" />
             <img id="eyes" src="eyes.svg" />
             <img id="eyebrows" src="eyebrows.svg" />
-            <img id="lips" src="lips.svg" />
             <img id="nose" src="nose.svg" />
+            <img id="lips" src="lips.svg" />
             <img id="hair" src="./img/hairIcon.svg" />
         </div>
     </div>
@@ -30,14 +30,11 @@
             <li id="selectBrows">
                 <div><img src="img/eyebrows.svg" alt="eyebrows"></div>
             </li>
-            <li class="selection">
+            <li id="selectNose">
                 <div><img src="img/nose.svg" alt="nose"></div>
             </li>
-            <li class="selection">
+            <li id="selectLips">
                 <div><img src="img/mouth.svg" alt="lips"></div>
-            </li>
-            <li class="selection">
-                <div><img src="img/download.svg" alt="Loading" /></div>
             </li>
 
         </ul>
@@ -59,6 +56,18 @@
                 <button class="selectedEyeBrows"><img src="./img/brows2.svg" /></button>
                 <button class="selectedEyeBrows"><img src="./img/brows3.svg" /></button>
                 <button class="selectedEyeBrows"><img src="./img/brows4.svg" /></button>
+            </div>
+            <div id="noseDiv">
+                <button class="selectedNose"><img src="./img/nose1.svg" /></button>
+                <button class="selectedNose"><img src="./img/nose2.svg" /></button>
+                <button class="selectedNose"><img src="./img/nose3.svg" /></button>
+                <button class="selectedNose"><img src="./img/nose4.svg" /></button>
+            </div>
+            <div id="lipsDiv">
+                <button class="selectedLips"><img src="./img/lips1.svg" /></button>
+                <button class="selectedLips"><img src="./img/lips2.svg" /></button>
+                <button class="selectedLips"><img src="./img/lips3.svg" /></button>
+                <button class="selectedLips"><img src="./img/lips4.svg" /></button>
             </div>
         </div>
         <script src="scripts/drawAvatar.js" defer></script>

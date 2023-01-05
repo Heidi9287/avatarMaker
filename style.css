@@ -9,18 +9,20 @@
 #hairDiv{display: none;}
 #eyesDiv{display: none;}
 #browsDiv{display: none;}
+#noseDiv{display: none;}
+#lipsDiv{display: none;}
 #avatar{
-    margin:10% 0 0 10%; 
+    margin:20% 0 0 10%;
 }
 #face{width:350px;}
  #hair{width:400px;translate: -30px -2800px;} 
 #eyebrows{width:400px;translate: -20px -1120px;}
  #eyes{width:400px;translate:  -15px -420px;}
- #nose{width:400px;translate:-8px -2030px;} 
-#lips{width:400px;translate:-20px -1560px;}  
-.customization{float:left;width:800px;}
+ #nose{width:400px;translate:-8px -1400px;} 
+#lips{width:400px;translate:-20px -2180px;}  
+.customization{float:left;width:50%;margin:auto 5% auto 5%;}
 .customization ul {display: flex;align-items: center;}
-.customization ul li{list-style: none;margin-right:60px;}
+.customization ul li{list-style: none;margin:5% 8% 0 0}
 img{width:80px;}
 #customContents{
     display: flex;
